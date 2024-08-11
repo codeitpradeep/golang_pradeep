@@ -33,6 +33,9 @@ func main() {
 	vowls = append(r2, "aaaa")
 
 	fmt.Println(vowls)
+
+	b := [...]int{1, 2, 3, 5, 6, 7}
+	fmt.Println(b)
 }
 
 /*
