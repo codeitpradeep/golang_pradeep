@@ -8,6 +8,12 @@ func main() {
 	refanceofit := &name
 	fmt.Println(refanceofit, " ", name)
 
+	name = "aaa"
+	fmt.Println(name)
+
+	*refanceofit = "arun"
+	fmt.Println(name)
+
 	getname(refanceofit)
 
 	fmt.Println(name)
